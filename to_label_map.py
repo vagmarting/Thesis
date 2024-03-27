@@ -18,7 +18,7 @@ import SimpleITK as sitk
 
 
 # Run from command line 
-# C:\Users\vmart\miniconda3\python.exe to_label_map.py --CSV "C:\Users\vmart\Documents\TM_jaar_3\Afstuderen\Thesis\labels_csv" --output_dir "C:\Users\vmart\Documents\TM_jaar_3\Afstuderen\Thesis\labels_nifti" --OG "C:\Users\vmart\Documents\TM_jaar_3\Afstuderen\Thesis\NIFTI"
+#C:\Users\vmart\miniconda3\python.exe to_label_map.py --CSV "C:\Users\vmart\Documents\TM_jaar_3\Afstuderen\Thesis\labels_csv" --output_dir "C:\Users\vmart\Documents\TM_jaar_3\Afstuderen\Thesis\labels_nifti" --OG "C:\Users\vmart\Documents\TM_jaar_3\Afstuderen\Thesis\NIFTI"
 
 
 parser = argparse.ArgumentParser(description="Prepares image labels for nnDetection")
